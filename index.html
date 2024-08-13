@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>School Website</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - High School</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<h1>Welcome to Our School</h1>
-</header>
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Admissions</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-<main>
-<section>
-<h2>About Our School</h2>
-<p>This is where you describe the school</p>
-</section>
-</main>
-<footer>
-<p>&copy; 2024 School Name. ALL rights reserved.</p>
-</footer>
-  <script src="scripts.js"></script>
+    <header>
+        <div class="container">
+            <h1>High School</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image1.jpg" alt="School event 1">
+                    <img src="image2.jpg" alt="School event 2">
+                    <img src="image3.jpg" alt="School event 3">
+                </div>
+                <button class="carousel-button prev" aria-label="Previous slide">&#10094;</button>
+                <button class="carousel-button next" aria-label="Next slide">&#10095;</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Welcome to Our School</h2>
+            <p>We offer a variety of educational programs and extracurricular activities designed to enrich our students' lives.</p>
+        </section>
+        <section>
+            <h2>Latest News & Events</h2>
+            <p>Stay updated with our latest news and upcoming events!</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 High School | <a href="contact.html">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
